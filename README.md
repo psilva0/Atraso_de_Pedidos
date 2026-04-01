@@ -41,3 +41,6 @@ Uma tabela dinâmica com os comentários reais dos consumidores.
 Agradecimentos:
 
 Um agradecimento especial a Pedro Rodriguez pela colaboração e parceria fundamental durante o desenvolvimento deste projeto. A troca de ideias foi essencial para alcançar o nível de detalhe e qualidade nas análises e visualizações aqui apresentadas.
+
+
+https://github.com/psilva0/Atraso_de_Pedidos/blob/main/dashcerto.mp4
