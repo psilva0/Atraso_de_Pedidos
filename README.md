@@ -43,4 +43,8 @@ Agradecimentos:
 Um agradecimento especial a Pedro Rodriguez pela colaboração e parceria fundamental durante o desenvolvimento deste projeto. A troca de ideias foi essencial para alcançar o nível de detalhe e qualidade nas análises e visualizações aqui apresentadas.
 
 
-https://github.com/psilva0/Atraso_de_Pedidos/blob/main/dashcerto.mp4
+
+
+https://github.com/user-attachments/assets/edd7b9b2-34de-4f84-ac3b-7935b2f1328d
+
+
