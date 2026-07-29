@@ -1,50 +1,30 @@
-Este repositório contém um projeto completo de Análise de Dados focado em entender como os prazos de entrega e os atrasos logísticos impactam a satisfação dos clientes em um e-commerce. O projeto abrange desde o tratamento de dados brutos com Python até a visualização estratégica através de um dashboard interativo.
+E-commerce Delivery Delays & Customer Satisfaction Analysis
 
-Objetivo do Projeto:
+This repository contains a complete Data Analysis project focused on understanding how delivery lead times and logistics delays impact customer satisfaction in an e-commerce business. The project covers everything from raw data cleaning in Python to strategic visualization through an interactive dashboard.
 
-Investigar a jornada do consumidor cruzando dados de pedidos e avaliações de clientes para responder a perguntas de negócio cruciais:
+Project Goal
 
-Como o tempo de entrega afeta a nota dada pelo cliente?
+Investigate the customer journey by cross-referencing order data and customer reviews to answer key business questions:
 
-Quais estados possuem os maiores índices de atraso?
+How does delivery time affect the rating given by the customer?
+Which states have the highest delay rates?
+What is the statistical correlation between meeting the estimated delivery deadline and brand reputation?
+Tech Stack
+Language: Python
+Data Manipulation: Pandas, NumPy
+Data Visualization (Python): Plotly, Matplotlib, Seaborn
+Business Intelligence: Interactive dashboard
+Development Environment: Jupyter Notebook / Google Colab
+Key Features and Steps
+ETL and Data Cleaning: Merging tables (df_avaliacoes and df_pedidos) through joins, handling null values, and manipulating timestamps to calculate actual delivery time versus estimated delivery time.
+Statistical Analysis: Applying statistical methods to analyze the distribution of review ratings (using boxplots and dispersion calculations) and the average number of days for product arrival.
+Interactive Dashboard with a Map of Brazil: Building a BI panel that allows filtering data by state (UF). The panel displays:
+Total orders and total delays.
+Average delay and average rating per region.
+Bar and line charts comparing delay volume and ratings across states.
+A dynamic table with real customer comments.
+Acknowledgments
 
-Qual é a correlação estatística entre o cumprimento do prazo estimado e a reputação da marca?
-
-Tecnologias e Ferramentas Utilizadas:
-
-Linguagem: Python
-
-Manipulação de Dados: Pandas, NumPy
-
-Visualização de Dados (Python): Plotly, Matplotlib, Seaborn
-
-Business Intelligence: Dashboard interativo
-
-Ambiente de Desenvolvimento: Jupyter Notebook / Google Colab
-
-Principais Funcionalidades e Etapas:
-
-ETL e Limpeza de Dados: Cruzamento de tabelas (df_avaliacoes e df_pedidos) através de joins, tratamento de valores nulos e manipulação de datas (timestamps) para calcular o tempo real de entrega versus o tempo estimado.
-
-Análise Estatística: Aplicação de métodos estatísticos para analisar a distribuição das notas de avaliação (utilizando boxplots e cálculos de dispersão) e a média de dias para a chegada dos produtos.
-
-Dashboard Interativo com Mapa do Brasil: Criação de um painel de BI que permite filtrar os dados por estado (UF). O painel exibe:
-
-Total de pedidos e total de atrasos.
-
-Média de atraso e avaliação média por região.
-
-Gráficos de barras e linhas comparando o volume de atrasos e as notas atribuídas em cada estado.
-
-Uma tabela dinâmica com os comentários reais dos consumidores.
-
-Agradecimentos:
-
-Um agradecimento especial a Pedro Rodriguez pela colaboração e parceria fundamental durante o desenvolvimento deste projeto. A troca de ideias foi essencial para alcançar o nível de detalhe e qualidade nas análises e visualizações aqui apresentadas.
-
-
-
+Special thanks to Pedro Rodriguez for his collaboration and essential partnership throughout the development of this project. The exchange of ideas was key to reaching the level of detail and quality in the analyses and visualizations presented here.
 
 https://github.com/user-attachments/assets/edd7b9b2-34de-4f84-ac3b-7935b2f1328d
-
-
